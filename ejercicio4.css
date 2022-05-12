@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+#cuadrado {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+#cuadrado:hover {
+  animation: rotation linear infinite 1s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
