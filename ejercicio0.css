@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cuadrado {
+  animation: cambioColorCuadrado 3s linear infinite alternate both;
+}
+
+@keyframes cambioColorCuadrado {
+  0% {
+    background-color: green;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
